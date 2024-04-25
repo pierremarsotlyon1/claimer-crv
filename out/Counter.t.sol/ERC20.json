@@ -1,0 +1,1909 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "balanceOf(address)": "70a08231"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"test/Counter.t.sol\":\"ERC20\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/Base.sol\":{\"keccak256\":\"0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224\",\"dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK\"]},\"lib/forge-std/src/StdAssertions.sol\":{\"keccak256\":\"0x4584f551c3a875c26423c1e50a77179bc2f9c9c1ee6d0f0c6be0f89ca5ee8270\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ef118876a862b60ba8a6612b8b3f3a6c226e11a0071a2e9695f021586d1bfdbe\",\"dweb:/ipfs/QmXd2vD91PkvoFWasFkgbDi89PctmgsHVxGvGNyhjmRK2b\"]},\"lib/forge-std/src/StdChains.sol\":{\"keccak256\":\"0xd61da31976d579fa227e1a754891847d63b2145b6cda3fb6d206bfe209a4b911\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e24fae65db059e21e505f4abaefc4c426d0e68280e984a57be9f3e8a60be45cb\",\"dweb:/ipfs/QmXSczwRuFbiqejVmMrEyuBP67L6bML3fWNTJwZ6uPAGWd\"]},\"lib/forge-std/src/StdCheats.sol\":{\"keccak256\":\"0xb72f3519e0bf7d31df5d68557525f4fc55d861c3fb3b0f7793144ef7c94cbeb7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f3456d0f78e6f61203fa7871ba2df0d35925f10db3baee14be623ce2a35b84e2\",\"dweb:/ipfs/QmWE6QQSBvJifHMraisBTrf1x4WCwrDoTPLX8UKajTiApc\"]},\"lib/forge-std/src/StdError.sol\":{\"keccak256\":\"0xbf477b11a42d7611696956546bcfaa29317d1166bf65e402344599c05943fc77\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc2e117d1135e030862b96a6526a43feb38d396cc79857f1fb696d4eff0e5fd6\",\"dweb:/ipfs/QmdSuQ5RrQudTLsNmWXGEeVJX8gR5U9XPm6m4dwwuQnJrj\"]},\"lib/forge-std/src/StdInvariant.sol\":{\"keccak256\":\"0x67299bfacd77fddfa2a67b8e2b901e0e333618a4975fb94850b07475e51f6de6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1b61121d310f4053ce344b345b4a9ccf43b059daf9097ec2647f594beaca896d\",\"dweb:/ipfs/QmZUCoTtXBM9zfAZVbj2dFPPnKaV1CSZzXE7zictyg3Gfz\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x62bed173cb126f6d5006706cf249bac8a2d51bfa18f773f314784ff18adc622d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5acc33dddbf2492e37dc32e89cd56ce917272d303a6874805f3a5768a6bfbf54\",\"dweb:/ipfs/QmTsgFhcpUf16gAVazUXU3WspgX8nHke2hzVCvoqS25WEp\"]},\"lib/forge-std/src/StdMath.sol\":{\"keccak256\":\"0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92\",\"dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC\"]},\"lib/forge-std/src/StdStorage.sol\":{\"keccak256\":\"0x651d84d948832f0ef45686417aa68ffb871378fa788a4123dbf37844903c66f3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff20f5ac9de3dc3ba86b1bf1f2723174e82ce3499ad67cb0ccfa7d28baeee678\",\"dweb:/ipfs/QmRZkUFKz7AmF7yk6o317sk822HHhGVPXZQgX8G4LfYfft\"]},\"lib/forge-std/src/StdStyle.sol\":{\"keccak256\":\"0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8\",\"dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK\"]},\"lib/forge-std/src/StdToml.sol\":{\"keccak256\":\"0xc8a57915ace96f5b6a85b57e57690fc038cad9034a3dc368c11828a3707c61ab\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fa880a1a6e5d94005dcf4811b4c0df8d9c06407017ae111bd351483e2b76a72d\",\"dweb:/ipfs/QmcxkEE58gE1vDcZofTr8QpvdjXjgR72yYg7o4vTPSLCsy\"]},\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61\",\"dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX\"]},\"lib/forge-std/src/Test.sol\":{\"keccak256\":\"0x3b4bb409a156dee9ce261458117fe9f81080ca844a8a26c07c857c46d155effe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5792c69fe24bdc063a14e08fe68275007fdb1e5e7e343840a77938cb7e95a64e\",\"dweb:/ipfs/QmcAMhaurUwzhytJFYix4vRNeZeV8g27b8LnV3t7dvYtiK\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x51fec240abc6dd23e0ee6de7c65106379aef732cad6c4ae5df6b55db886e7456\",\"license\":\"MIT OR Apache-2.0\",\"urls\":[\"bzz-raw://a47d9c0a9876e7f9e411843b994a741d4ac1a87d8459ffc3c56359de691ddc1a\",\"dweb:/ipfs/QmQiFN9b3Y2azrD1RBfAKEuAG3YeJkMzA2DGzgEE9kMeEK\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0x954646445d1014c3cd85c7918f5e7adeeca5ee44b68c00bafa237e597a4e35ea\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://516fa3be52da4763147175bfba4be0aa011fadbb0c1afb01f97265bd4cee7973\",\"dweb:/ipfs/QmdixAyMJefx7qePChgdxcBH5MxhmN7vsqPuPLx3CgrVmF\"]},\"lib/forge-std/src/interfaces/IERC165.sol\":{\"keccak256\":\"0x414b2861b1acbf816ccb7346d3f16cf6c1e002e9e5e40d2f1f26fa5ddc2ea600\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://698352fb240868ea8f1d1fe389993035eeab930f10d06934f80ccfb2b6ccbfbc\",\"dweb:/ipfs/QmT6WLHAgXxFhh12kWym895oTzXid1326iZiwT3pyfggoT\"]},\"lib/forge-std/src/interfaces/IERC20.sol\":{\"keccak256\":\"0x4cab887298790f908c27de107e4e2907ca5413aee482ef776f8d2f353c5ef947\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb715e0c4a2bdbe432bb624501506041f06e878e0b72675aebba30ad2c2b72e7\",\"dweb:/ipfs/QmWhhLSvkxS2NrukJJHqFY8gDVE5r9rD4PfHvR24pwdKv9\"]},\"lib/forge-std/src/interfaces/IERC721.sol\":{\"keccak256\":\"0xf069262a264fdb69f8f37a10d2df7374649e9ba73f8414c9c8a3b51184625f15\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://924a41ca82a68ffbd503a5faf2f76d13e9938f10501a71094716f12bb64b4b7f\",\"dweb:/ipfs/QmdWnqfKc5ZGhmxNPTde4zrFchnv9Yk9MpCMb2rdhXE5gm\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]},\"lib/forge-std/src/mocks/MockERC20.sol\":{\"keccak256\":\"0xadbdfc6639edec00ba94bb1133a0fd8de31ccafe45c2ef5df9b3ca61b60b559b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bc766f01bccf669abac8cc7b2096cc1352a66471ca3772ae61b1801dedc4ed4f\",\"dweb:/ipfs/QmNigaPj1LYkP7Z5xr4ijkUxr2K66fDGeoifG3WoM9ruyw\"]},\"lib/forge-std/src/mocks/MockERC721.sol\":{\"keccak256\":\"0x3293dcbb7acd28df553c954e4e39e288bf10aab7ecda8d50ef21b4f4a91a28d9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9eb374daf6df34f4392f8926f1fddbce9f22c423066aeaefdfbe77395f77967b\",\"dweb:/ipfs/QmWR81zBJRX2uyRjveGzikYPj6ZwKppWsU49YEQXTLWUsN\"]},\"lib/forge-std/src/safeconsole.sol\":{\"keccak256\":\"0xbaf41fdc6c54297e7cd8250e48b0f20eaac918e342a1028cef3f9a52ac086381\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a500ad81dea226f9910e6b50f99a9ff930105e393a692cbfb2185e4cdb4424ae\",\"dweb:/ipfs/QmVbUQpXNMmMWRiy4FvBNczzq46BMGfUoBikvSHNiCxVTq\"]},\"src/Claimer.sol\":{\"keccak256\":\"0x8d1d671dc55bab45a24aeadd9930fdcd76792ef64e54b5acdc46641ca05a4eca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcf6c5c4cb61b0a486192cf718b839aada0220af80c86e2481fcdad61cd0ae15\",\"dweb:/ipfs/QmU1KPzpjvW8dcPjgyL2iyYGvGXsSfkXWKxv8PZYkWzLFi\"]},\"test/Counter.t.sol\":{\"keccak256\":\"0x92d31e9b80e22becdc4540ae210a2aedffd6a4b6514d684c6b9df1381511e9f5\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://ee56468682a755316acc079b0c41e728ef65420b9c90ee3eb7c3824001cc04a1\",\"dweb:/ipfs/QmNhRYATZMKUAev8D97oApfuv5Zq4s2e18b6ZkTtbjBbq2\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "balanceOf",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "test/Counter.t.sol": "ERC20"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/forge-std/src/Base.sol": {
+        "keccak256": "0x4ff1a785311017d1eedb1b4737956fa383067ad34eb439abfec1d989754dde1c",
+        "urls": [
+          "bzz-raw://f553622969b9fdb930246704a4c10dfaee6b1a4468c142fa7eb9dc292a438224",
+          "dweb:/ipfs/QmcxqHnqdQsMVtgsfH9VNLmZ3g7GhgNagfq7yvNCDcCHFK"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdAssertions.sol": {
+        "keccak256": "0x4584f551c3a875c26423c1e50a77179bc2f9c9c1ee6d0f0c6be0f89ca5ee8270",
+        "urls": [
+          "bzz-raw://ef118876a862b60ba8a6612b8b3f3a6c226e11a0071a2e9695f021586d1bfdbe",
+          "dweb:/ipfs/QmXd2vD91PkvoFWasFkgbDi89PctmgsHVxGvGNyhjmRK2b"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdChains.sol": {
+        "keccak256": "0xd61da31976d579fa227e1a754891847d63b2145b6cda3fb6d206bfe209a4b911",
+        "urls": [
+          "bzz-raw://e24fae65db059e21e505f4abaefc4c426d0e68280e984a57be9f3e8a60be45cb",
+          "dweb:/ipfs/QmXSczwRuFbiqejVmMrEyuBP67L6bML3fWNTJwZ6uPAGWd"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdCheats.sol": {
+        "keccak256": "0xb72f3519e0bf7d31df5d68557525f4fc55d861c3fb3b0f7793144ef7c94cbeb7",
+        "urls": [
+          "bzz-raw://f3456d0f78e6f61203fa7871ba2df0d35925f10db3baee14be623ce2a35b84e2",
+          "dweb:/ipfs/QmWE6QQSBvJifHMraisBTrf1x4WCwrDoTPLX8UKajTiApc"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdError.sol": {
+        "keccak256": "0xbf477b11a42d7611696956546bcfaa29317d1166bf65e402344599c05943fc77",
+        "urls": [
+          "bzz-raw://bc2e117d1135e030862b96a6526a43feb38d396cc79857f1fb696d4eff0e5fd6",
+          "dweb:/ipfs/QmdSuQ5RrQudTLsNmWXGEeVJX8gR5U9XPm6m4dwwuQnJrj"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdInvariant.sol": {
+        "keccak256": "0x67299bfacd77fddfa2a67b8e2b901e0e333618a4975fb94850b07475e51f6de6",
+        "urls": [
+          "bzz-raw://1b61121d310f4053ce344b345b4a9ccf43b059daf9097ec2647f594beaca896d",
+          "dweb:/ipfs/QmZUCoTtXBM9zfAZVbj2dFPPnKaV1CSZzXE7zictyg3Gfz"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdJson.sol": {
+        "keccak256": "0x62bed173cb126f6d5006706cf249bac8a2d51bfa18f773f314784ff18adc622d",
+        "urls": [
+          "bzz-raw://5acc33dddbf2492e37dc32e89cd56ce917272d303a6874805f3a5768a6bfbf54",
+          "dweb:/ipfs/QmTsgFhcpUf16gAVazUXU3WspgX8nHke2hzVCvoqS25WEp"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdMath.sol": {
+        "keccak256": "0xd90ad4fd8aeaeb8929964e686e769fdedd5eded3fc3815df194a0ab9f91a3fb2",
+        "urls": [
+          "bzz-raw://7919b70f636c7b805223992f28ad1ad0145d6c1385b5931a3589aface5fe6c92",
+          "dweb:/ipfs/QmY7FRaULwoGgFteF8GawjQJRfasNgpWnU2aiMsFrYpuTC"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdStorage.sol": {
+        "keccak256": "0x651d84d948832f0ef45686417aa68ffb871378fa788a4123dbf37844903c66f3",
+        "urls": [
+          "bzz-raw://ff20f5ac9de3dc3ba86b1bf1f2723174e82ce3499ad67cb0ccfa7d28baeee678",
+          "dweb:/ipfs/QmRZkUFKz7AmF7yk6o317sk822HHhGVPXZQgX8G4LfYfft"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdStyle.sol": {
+        "keccak256": "0x43e2a8a9b9c2574dabe74f11adf6f782df218f463540e3b5b563609fe108597d",
+        "urls": [
+          "bzz-raw://51363ca97404cf4128e1141428949768c31929e75e014b02c85e887fbbb4f1b8",
+          "dweb:/ipfs/QmVhtbQc2fU4rRmbcfBtz34mAgG4BAZBsbna1Ca4SkoPsK"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdToml.sol": {
+        "keccak256": "0xc8a57915ace96f5b6a85b57e57690fc038cad9034a3dc368c11828a3707c61ab",
+        "urls": [
+          "bzz-raw://fa880a1a6e5d94005dcf4811b4c0df8d9c06407017ae111bd351483e2b76a72d",
+          "dweb:/ipfs/QmcxkEE58gE1vDcZofTr8QpvdjXjgR72yYg7o4vTPSLCsy"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdUtils.sol": {
+        "keccak256": "0x502b18a4becda6ecd91fa8b419d8034946bfa80e6cc7f6497f51f8565bfadae0",
+        "urls": [
+          "bzz-raw://bf499ee483a1dfd02023d4ce78ed4029a49794ccd5b849aaab912faea0d2ba61",
+          "dweb:/ipfs/QmP6hwNZW7sYbQK9fBzuZWxfLm6Swx2nKzvZ54qWNqQkzX"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Test.sol": {
+        "keccak256": "0x3b4bb409a156dee9ce261458117fe9f81080ca844a8a26c07c857c46d155effe",
+        "urls": [
+          "bzz-raw://5792c69fe24bdc063a14e08fe68275007fdb1e5e7e343840a77938cb7e95a64e",
+          "dweb:/ipfs/QmcAMhaurUwzhytJFYix4vRNeZeV8g27b8LnV3t7dvYtiK"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Vm.sol": {
+        "keccak256": "0x51fec240abc6dd23e0ee6de7c65106379aef732cad6c4ae5df6b55db886e7456",
+        "urls": [
+          "bzz-raw://a47d9c0a9876e7f9e411843b994a741d4ac1a87d8459ffc3c56359de691ddc1a",
+          "dweb:/ipfs/QmQiFN9b3Y2azrD1RBfAKEuAG3YeJkMzA2DGzgEE9kMeEK"
+        ],
+        "license": "MIT OR Apache-2.0"
+      },
+      "lib/forge-std/src/console.sol": {
+        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+        "urls": [
+          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console2.sol": {
+        "keccak256": "0x954646445d1014c3cd85c7918f5e7adeeca5ee44b68c00bafa237e597a4e35ea",
+        "urls": [
+          "bzz-raw://516fa3be52da4763147175bfba4be0aa011fadbb0c1afb01f97265bd4cee7973",
+          "dweb:/ipfs/QmdixAyMJefx7qePChgdxcBH5MxhmN7vsqPuPLx3CgrVmF"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/interfaces/IERC165.sol": {
+        "keccak256": "0x414b2861b1acbf816ccb7346d3f16cf6c1e002e9e5e40d2f1f26fa5ddc2ea600",
+        "urls": [
+          "bzz-raw://698352fb240868ea8f1d1fe389993035eeab930f10d06934f80ccfb2b6ccbfbc",
+          "dweb:/ipfs/QmT6WLHAgXxFhh12kWym895oTzXid1326iZiwT3pyfggoT"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/interfaces/IERC20.sol": {
+        "keccak256": "0x4cab887298790f908c27de107e4e2907ca5413aee482ef776f8d2f353c5ef947",
+        "urls": [
+          "bzz-raw://bb715e0c4a2bdbe432bb624501506041f06e878e0b72675aebba30ad2c2b72e7",
+          "dweb:/ipfs/QmWhhLSvkxS2NrukJJHqFY8gDVE5r9rD4PfHvR24pwdKv9"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/interfaces/IERC721.sol": {
+        "keccak256": "0xf069262a264fdb69f8f37a10d2df7374649e9ba73f8414c9c8a3b51184625f15",
+        "urls": [
+          "bzz-raw://924a41ca82a68ffbd503a5faf2f76d13e9938f10501a71094716f12bb64b4b7f",
+          "dweb:/ipfs/QmdWnqfKc5ZGhmxNPTde4zrFchnv9Yk9MpCMb2rdhXE5gm"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/interfaces/IMulticall3.sol": {
+        "keccak256": "0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a",
+        "urls": [
+          "bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0",
+          "dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/mocks/MockERC20.sol": {
+        "keccak256": "0xadbdfc6639edec00ba94bb1133a0fd8de31ccafe45c2ef5df9b3ca61b60b559b",
+        "urls": [
+          "bzz-raw://bc766f01bccf669abac8cc7b2096cc1352a66471ca3772ae61b1801dedc4ed4f",
+          "dweb:/ipfs/QmNigaPj1LYkP7Z5xr4ijkUxr2K66fDGeoifG3WoM9ruyw"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/mocks/MockERC721.sol": {
+        "keccak256": "0x3293dcbb7acd28df553c954e4e39e288bf10aab7ecda8d50ef21b4f4a91a28d9",
+        "urls": [
+          "bzz-raw://9eb374daf6df34f4392f8926f1fddbce9f22c423066aeaefdfbe77395f77967b",
+          "dweb:/ipfs/QmWR81zBJRX2uyRjveGzikYPj6ZwKppWsU49YEQXTLWUsN"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/safeconsole.sol": {
+        "keccak256": "0xbaf41fdc6c54297e7cd8250e48b0f20eaac918e342a1028cef3f9a52ac086381",
+        "urls": [
+          "bzz-raw://a500ad81dea226f9910e6b50f99a9ff930105e393a692cbfb2185e4cdb4424ae",
+          "dweb:/ipfs/QmVbUQpXNMmMWRiy4FvBNczzq46BMGfUoBikvSHNiCxVTq"
+        ],
+        "license": "MIT"
+      },
+      "src/Claimer.sol": {
+        "keccak256": "0x8d1d671dc55bab45a24aeadd9930fdcd76792ef64e54b5acdc46641ca05a4eca",
+        "urls": [
+          "bzz-raw://dcf6c5c4cb61b0a486192cf718b839aada0220af80c86e2481fcdad61cd0ae15",
+          "dweb:/ipfs/QmU1KPzpjvW8dcPjgyL2iyYGvGXsSfkXWKxv8PZYkWzLFi"
+        ],
+        "license": "MIT"
+      },
+      "test/Counter.t.sol": {
+        "keccak256": "0x92d31e9b80e22becdc4540ae210a2aedffd6a4b6514d684c6b9df1381511e9f5",
+        "urls": [
+          "bzz-raw://ee56468682a755316acc079b0c41e728ef65420b9c90ee3eb7c3824001cc04a1",
+          "dweb:/ipfs/QmNhRYATZMKUAev8D97oApfuv5Zq4s2e18b6ZkTtbjBbq2"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "test/Counter.t.sol",
+    "id": 46849,
+    "exportedSymbols": {
+      "Claimer": [
+        46735
+      ],
+      "CounterTest": [
+        46848
+      ],
+      "ERC20": [
+        46750
+      ],
+      "Test": [
+        12027
+      ],
+      "console2": [
+        31878
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:1081:24",
+    "nodes": [
+      {
+        "id": 46737,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:24",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 46740,
+        "nodeType": "ImportDirective",
+        "src": "65:50:24",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "forge-std/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 46849,
+        "sourceUnit": 12028,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 46738,
+              "name": "Test",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 12027,
+              "src": "73:4:24",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 46739,
+              "name": "console2",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 31878,
+              "src": "79:8:24",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 46742,
+        "nodeType": "ImportDirective",
+        "src": "116:43:24",
+        "nodes": [],
+        "absolutePath": "src/Claimer.sol",
+        "file": "../src/Claimer.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 46849,
+        "sourceUnit": 46736,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 46741,
+              "name": "Claimer",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 46735,
+              "src": "124:7:24",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 46750,
+        "nodeType": "ContractDefinition",
+        "src": "161:88:24",
+        "nodes": [
+          {
+            "id": 46749,
+            "nodeType": "FunctionDefinition",
+            "src": "183:64:24",
+            "nodes": [],
+            "functionSelector": "70a08231",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "balanceOf",
+            "nameLocation": "192:9:24",
+            "parameters": {
+              "id": 46745,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 46744,
+                  "mutability": "mutable",
+                  "name": "user",
+                  "nameLocation": "210:4:24",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46749,
+                  "src": "202:12:24",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 46743,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "202:7:24",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "201:14:24"
+            },
+            "returnParameters": {
+              "id": 46748,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 46747,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46749,
+                  "src": "238:7:24",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 46746,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "238:7:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "237:9:24"
+            },
+            "scope": 46750,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ERC20",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          46750
+        ],
+        "name": "ERC20",
+        "nameLocation": "171:5:24",
+        "scope": 46849,
+        "usedErrors": [],
+        "usedEvents": []
+      },
+      {
+        "id": 46848,
+        "nodeType": "ContractDefinition",
+        "src": "251:869:24",
+        "nodes": [
+          {
+            "id": 46761,
+            "nodeType": "VariableDeclaration",
+            "src": "286:70:24",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "CRV",
+            "nameLocation": "292:3:24",
+            "scope": 46848,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ERC20_$46750",
+              "typeString": "contract ERC20"
+            },
+            "typeName": {
+              "id": 46754,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 46753,
+                "name": "ERC20",
+                "nameLocations": [
+                  "286:5:24"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 46750,
+                "src": "286:5:24"
+              },
+              "referencedDeclaration": 46750,
+              "src": "286:5:24",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$46750",
+                "typeString": "contract ERC20"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "hexValue": "307844353333613934393734306262333330366431313943433737376661393030624130333463643532",
+                      "id": 46758,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "312:42:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "value": "0xD533a949740bb3306d119CC777fa900bA034cd52"
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    ],
+                    "id": 46757,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "nodeType": "ElementaryTypeNameExpression",
+                    "src": "304:7:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_type$_t_address_$",
+                      "typeString": "type(address)"
+                    },
+                    "typeName": {
+                      "id": 46756,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "304:7:24",
+                      "typeDescriptions": {}
+                    }
+                  },
+                  "id": 46759,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "typeConversion",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "304:51:24",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 46755,
+                "name": "ERC20",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 46750,
+                "src": "298:5:24",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_contract$_ERC20_$46750_$",
+                  "typeString": "type(contract ERC20)"
+                }
+              },
+              "id": 46760,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "298:58:24",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$46750",
+                "typeString": "contract ERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46770,
+            "nodeType": "VariableDeclaration",
+            "src": "362:73:24",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "crvUSD",
+            "nameLocation": "368:6:24",
+            "scope": 46848,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ERC20_$46750",
+              "typeString": "contract ERC20"
+            },
+            "typeName": {
+              "id": 46763,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 46762,
+                "name": "ERC20",
+                "nameLocations": [
+                  "362:5:24"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 46750,
+                "src": "362:5:24"
+              },
+              "referencedDeclaration": 46750,
+              "src": "362:5:24",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$46750",
+                "typeString": "contract ERC20"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "hexValue": "307866393339453041303346423037463539413733333134453733373934426530453537616331623445",
+                      "id": 46767,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "391:42:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "value": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    ],
+                    "id": 46766,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "nodeType": "ElementaryTypeNameExpression",
+                    "src": "383:7:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_type$_t_address_$",
+                      "typeString": "type(address)"
+                    },
+                    "typeName": {
+                      "id": 46765,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "383:7:24",
+                      "typeDescriptions": {}
+                    }
+                  },
+                  "id": 46768,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "typeConversion",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "383:51:24",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 46764,
+                "name": "ERC20",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 46750,
+                "src": "377:5:24",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_contract$_ERC20_$46750_$",
+                  "typeString": "type(contract ERC20)"
+                }
+              },
+              "id": 46769,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "377:58:24",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$46750",
+                "typeString": "contract ERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46776,
+            "nodeType": "VariableDeclaration",
+            "src": "441:67:24",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "gauge",
+            "nameLocation": "449:5:24",
+            "scope": 46848,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 46771,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "441:7:24",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "307834393838376446366645393035363633434442343663363136426642664242353065383561323635",
+                  "id": 46774,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "465:42:24",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "value": "0x49887dF6fE905663CDB46c616BfBfBB50e85a265"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 46773,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "457:7:24",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_address_$",
+                  "typeString": "type(address)"
+                },
+                "typeName": {
+                  "id": 46772,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "457:7:24",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 46775,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "457:51:24",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46782,
+            "nodeType": "VariableDeclaration",
+            "src": "514:66:24",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "user",
+            "nameLocation": "522:4:24",
+            "scope": 46848,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 46777,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "514:7:24",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "307839383941456234643137356531363232354533394538376430443937413333363035323441443830",
+                  "id": 46780,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "537:42:24",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "value": "0x989AEb4d175e16225E39E87d0D97A3360524AD80"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 46779,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "529:7:24",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_address_$",
+                  "typeString": "type(address)"
+                },
+                "typeName": {
+                  "id": 46778,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "529:7:24",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 46781,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "529:51:24",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46785,
+            "nodeType": "VariableDeclaration",
+            "src": "587:26:24",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "daaa15cf",
+            "mutability": "mutable",
+            "name": "claimerTest",
+            "nameLocation": "602:11:24",
+            "scope": 46848,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Claimer_$46735",
+              "typeString": "contract Claimer"
+            },
+            "typeName": {
+              "id": 46784,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 46783,
+                "name": "Claimer",
+                "nameLocations": [
+                  "587:7:24"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 46735,
+                "src": "587:7:24"
+              },
+              "referencedDeclaration": 46735,
+              "src": "587:7:24",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Claimer_$46735",
+                "typeString": "contract Claimer"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 46796,
+            "nodeType": "FunctionDefinition",
+            "src": "620:68:24",
+            "nodes": [],
+            "body": {
+              "id": 46795,
+              "nodeType": "Block",
+              "src": "644:44:24",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 46793,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 46788,
+                      "name": "claimerTest",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 46785,
+                      "src": "654:11:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Claimer_$46735",
+                        "typeString": "contract Claimer"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 46791,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "668:11:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Claimer_$46735_$",
+                          "typeString": "function () returns (contract Claimer)"
+                        },
+                        "typeName": {
+                          "id": 46790,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 46789,
+                            "name": "Claimer",
+                            "nameLocations": [
+                              "672:7:24"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 46735,
+                            "src": "672:7:24"
+                          },
+                          "referencedDeclaration": 46735,
+                          "src": "672:7:24",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Claimer_$46735",
+                            "typeString": "contract Claimer"
+                          }
+                        }
+                      },
+                      "id": 46792,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "668:13:24",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Claimer_$46735",
+                        "typeString": "contract Claimer"
+                      }
+                    },
+                    "src": "654:27:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Claimer_$46735",
+                      "typeString": "contract Claimer"
+                    }
+                  },
+                  "id": 46794,
+                  "nodeType": "ExpressionStatement",
+                  "src": "654:27:24"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "629:5:24",
+            "parameters": {
+              "id": 46786,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "634:2:24"
+            },
+            "returnParameters": {
+              "id": 46787,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "644:0:24"
+            },
+            "scope": 46848,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 46847,
+            "nodeType": "FunctionDefinition",
+            "src": "694:424:24",
+            "nodes": [],
+            "body": {
+              "id": 46846,
+              "nodeType": "Block",
+              "src": "724:394:24",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    46800
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 46800,
+                      "mutability": "mutable",
+                      "name": "crvBefore",
+                      "nameLocation": "742:9:24",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46846,
+                      "src": "734:17:24",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 46799,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "734:7:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 46805,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 46803,
+                        "name": "user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46782,
+                        "src": "768:4:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 46801,
+                        "name": "CRV",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46761,
+                        "src": "754:3:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC20_$46750",
+                          "typeString": "contract ERC20"
+                        }
+                      },
+                      "id": 46802,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "758:9:24",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 46749,
+                      "src": "754:13:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 46804,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "754:19:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "734:39:24"
+                },
+                {
+                  "assignments": [
+                    46807
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 46807,
+                      "mutability": "mutable",
+                      "name": "crvUSDBefore",
+                      "nameLocation": "791:12:24",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46846,
+                      "src": "783:20:24",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 46806,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "783:7:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 46812,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 46810,
+                        "name": "user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46782,
+                        "src": "823:4:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 46808,
+                        "name": "crvUSD",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46770,
+                        "src": "806:6:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC20_$46750",
+                          "typeString": "contract ERC20"
+                        }
+                      },
+                      "id": 46809,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "813:9:24",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 46749,
+                      "src": "806:16:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 46811,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "806:22:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "783:45:24"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 46816,
+                        "name": "gauge",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46776,
+                        "src": "857:5:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "74727565",
+                        "id": 46817,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "bool",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "864:4:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "value": "true"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "expression": {
+                        "id": 46813,
+                        "name": "claimerTest",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46785,
+                        "src": "839:11:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Claimer_$46735",
+                          "typeString": "contract Claimer"
+                        }
+                      },
+                      "id": 46815,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "851:5:24",
+                      "memberName": "claim",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 46718,
+                      "src": "839:17:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_bool_$returns$__$",
+                        "typeString": "function (address,bool) external"
+                      }
+                    },
+                    "id": 46818,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "839:30:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 46819,
+                  "nodeType": "ExpressionStatement",
+                  "src": "839:30:24"
+                },
+                {
+                  "assignments": [
+                    46821
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 46821,
+                      "mutability": "mutable",
+                      "name": "newCrvBefore",
+                      "nameLocation": "888:12:24",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46846,
+                      "src": "880:20:24",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 46820,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "880:7:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 46826,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 46824,
+                        "name": "user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46782,
+                        "src": "917:4:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 46822,
+                        "name": "CRV",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46761,
+                        "src": "903:3:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC20_$46750",
+                          "typeString": "contract ERC20"
+                        }
+                      },
+                      "id": 46823,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "907:9:24",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 46749,
+                      "src": "903:13:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 46825,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "903:19:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "880:42:24"
+                },
+                {
+                  "assignments": [
+                    46828
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 46828,
+                      "mutability": "mutable",
+                      "name": "newCrvUSDBefore",
+                      "nameLocation": "940:15:24",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 46846,
+                      "src": "932:23:24",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 46827,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "932:7:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 46833,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 46831,
+                        "name": "user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46782,
+                        "src": "975:4:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 46829,
+                        "name": "crvUSD",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46770,
+                        "src": "958:6:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ERC20_$46750",
+                          "typeString": "contract ERC20"
+                        }
+                      },
+                      "id": 46830,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "965:9:24",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 46749,
+                      "src": "958:16:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 46832,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "958:22:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "932:48:24"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 46835,
+                        "name": "newCrvBefore",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46821,
+                        "src": "1000:12:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "id": 46836,
+                        "name": "crvBefore",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46800,
+                        "src": "1014:9:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "hexValue": "65727220636c61696d20637276",
+                        "id": 46837,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1025:15:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_df3b2ba59875224778414ec842782019e730fc96b54226b768b201737fb7d7a7",
+                          "typeString": "literal_string \"err claim crv\""
+                        },
+                        "value": "err claim crv"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_df3b2ba59875224778414ec842782019e730fc96b54226b768b201737fb7d7a7",
+                          "typeString": "literal_string \"err claim crv\""
+                        }
+                      ],
+                      "id": 46834,
+                      "name": "assertGt",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1695,
+                        1713,
+                        1767,
+                        1785
+                      ],
+                      "referencedDeclaration": 1713,
+                      "src": "991:8:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (uint256,uint256,string memory) pure"
+                      }
+                    },
+                    "id": 46838,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "991:50:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 46839,
+                  "nodeType": "ExpressionStatement",
+                  "src": "991:50:24"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 46841,
+                        "name": "newCrvUSDBefore",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46828,
+                        "src": "1060:15:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "id": 46842,
+                        "name": "crvUSDBefore",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46807,
+                        "src": "1077:12:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "hexValue": "65727220636c61696d2072657761726473",
+                        "id": 46843,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1091:19:24",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_eae68bdfc29ff258b08f6eb596384a4ba91a643b1fa04890b53f74327b8ff63f",
+                          "typeString": "literal_string \"err claim rewards\""
+                        },
+                        "value": "err claim rewards"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_eae68bdfc29ff258b08f6eb596384a4ba91a643b1fa04890b53f74327b8ff63f",
+                          "typeString": "literal_string \"err claim rewards\""
+                        }
+                      ],
+                      "id": 46840,
+                      "name": "assertGt",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        1695,
+                        1713,
+                        1767,
+                        1785
+                      ],
+                      "referencedDeclaration": 1713,
+                      "src": "1051:8:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (uint256,uint256,string memory) pure"
+                      }
+                    },
+                    "id": 46844,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1051:60:24",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 46845,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1051:60:24"
+                }
+              ]
+            },
+            "functionSelector": "dd972110",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "test_Claim",
+            "nameLocation": "703:10:24",
+            "parameters": {
+              "id": 46797,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "714:2:24"
+            },
+            "returnParameters": {
+              "id": 46798,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "724:0:24"
+            },
+            "scope": 46848,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 46751,
+              "name": "Test",
+              "nameLocations": [
+                "275:4:24"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 12027,
+              "src": "275:4:24"
+            },
+            "id": 46752,
+            "nodeType": "InheritanceSpecifier",
+            "src": "275:4:24"
+          }
+        ],
+        "canonicalName": "CounterTest",
+        "contractDependencies": [
+          46735
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          46848,
+          12027,
+          11975,
+          6655,
+          6330,
+          5537,
+          3477,
+          2695,
+          65,
+          62
+        ],
+        "name": "CounterTest",
+        "nameLocation": "260:11:24",
+        "scope": 46849,
+        "usedErrors": [],
+        "usedEvents": [
+          100,
+          104,
+          108,
+          112,
+          116,
+          120,
+          124,
+          128,
+          134,
+          140,
+          148,
+          156,
+          162,
+          168,
+          174,
+          180,
+          185,
+          190,
+          195,
+          202,
+          209,
+          216
+        ]
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 24
+}
